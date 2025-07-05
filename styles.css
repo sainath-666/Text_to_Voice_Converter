@@ -76,7 +76,8 @@ button {
   box-shadow: 0 2px 8px 0 rgba(255, 41, 99, 0.15);
   transition: background 0.2s, box-shadow 0.2s;
 }
-button:hover, button:focus {
+button:hover,
+button:focus {
   background: #ff4b7d;
   box-shadow: 0 4px 16px 0 rgba(255, 41, 99, 0.25);
 }
@@ -101,10 +102,11 @@ select {
   background-size: 15px;
   background-position-x: calc(100% - 20px);
   background-position-y: 20px;
-  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.10);
+  box-shadow: 0 2px 8px 0 rgba(31, 38, 135, 0.1);
   transition: box-shadow 0.2s, background 0.2s;
 }
-select:hover, select:focus {
+select:hover,
+select:focus {
   background: #574fcf;
   box-shadow: 0 4px 16px 0 rgba(31, 38, 135, 0.18);
 }
@@ -115,7 +117,8 @@ select:hover, select:focus {
     margin-top: 0;
     margin-bottom: 30px;
   }
-  textarea, .row {
+  textarea,
+  .row {
     width: 95vw;
     min-width: 0;
     max-width: 98vw;
@@ -130,7 +133,8 @@ select:hover, select:focus {
     gap: 12px;
     margin-bottom: 10px;
   }
-  button, select {
+  button,
+  select {
     width: 100%;
     font-size: 15px;
     padding: 10px 0;
